@@ -1,0 +1,15 @@
+Count raffle #1 - Result:
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+Got toy with Ball ID 3
+
+Count raffle #13 - Result:
+Got toy with Doll ID 1
+

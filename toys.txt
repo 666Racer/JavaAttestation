@@ -1,0 +1,5 @@
+Toy: ID 1, Name Doll, Number of toys 5, DropChance 80
+Toy: ID 1, Name Doll, Number of toys 5, DropChance 80
+Toy: ID 1, Name Doll, Number of toys 5, DropChance 80
+Toy: ID 1, Name Doll, Number of toys 5, DropChance 80
+Toy: ID 1, Name Doll, Number of toys 5, DropChance 80
