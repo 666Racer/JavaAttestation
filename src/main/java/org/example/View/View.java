@@ -9,7 +9,7 @@ public class View {
     public void start() {
         Scanner sc = new Scanner(System.in);
         Controller toyController = new Controller();
-        toyController.loadToysFromFile("toys.txt");
+//        toyController.loadToysFromFile("toys.txt");
         PriorityQueue<Toy> allToys = new PriorityQueue<>();
         boolean flag = true;
         while(flag){

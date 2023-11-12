@@ -42,8 +42,8 @@ public class Controller {
     public void saveToFile(String fileName) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
             for (Toy toy : toyQueue) {
-                writer.write("Toy: ID " + toy.getId() + ", " + "Name " + toy.getName() + ", " + "Number of toys " + toy.getNumberOfToys() +
-                        ", " + "DropChance " + toy.getChance() + "\n");
+                writer.write("ID " + toy.getId() + " ," + "Name " + toy.getName() + " ," + "Number of toys " + toy.getNumberOfToys() +
+                        " ," + "DropChance " + toy.getChance() + "\n");
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -102,7 +102,7 @@ public class Controller {
             }
             reader.close();
 
-            writer.write("Count raffle #" + (count + 1) + " - Result:" + "\n");
+            writer.write("Raffle #" + (count + 1) + " - Result:" + "\n");
             writer.write(result + "\n");
         }
         catch (IOException e)
@@ -115,7 +115,7 @@ public class Controller {
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                String[] parts = line.split(" ,");
+                String[] parts = line.split(", ");
                 int id = Integer.parseInt(parts[0]);
                 String name = parts[1];
                 int numberOfToys = Integer.parseInt(parts[2]);

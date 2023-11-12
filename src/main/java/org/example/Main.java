@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.Controller.Controller;
-import org.example.Data.Toy;
 import org.example.View.View;
 
 public class Main {
